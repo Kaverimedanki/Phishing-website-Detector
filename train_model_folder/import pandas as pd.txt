@@ -1,0 +1,12 @@
+import pandas as pd
+
+data = pd.read_csv(
+    "dataset/Training Dataset.arff",
+    comment="@",
+    header=None
+)
+
+print("Dataset loaded successfully!")
+print("Rows:", len(data))
+print("Columns:", len(data.columns))
+print(data.head())

@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+app.py.txt
+dataset/*.zip
+dataset/*.docx
